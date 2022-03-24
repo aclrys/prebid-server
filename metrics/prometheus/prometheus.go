@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/metrics"
-	"github.com/prebid/prebid-server/openrtb_ext"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/metrics"
+	"github.com/aclrys/prebid-server/openrtb_ext"
 	"github.com/prometheus/client_golang/prometheus"
 	promCollector "github.com/prometheus/client_golang/prometheus/collectors"
 )

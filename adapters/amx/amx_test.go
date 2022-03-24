@@ -7,12 +7,12 @@ import (
 	"testing"
 
 	"github.com/mxmCherry/openrtb/v15/openrtb2"
-	"github.com/prebid/prebid-server/adapters"
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/openrtb_ext"
+	"github.com/aclrys/prebid-server/adapters"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/openrtb_ext"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/prebid/prebid-server/adapters/adapterstest"
+	"github.com/aclrys/prebid-server/adapters/adapterstest"
 )
 
 const (

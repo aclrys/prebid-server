@@ -2,7 +2,7 @@ package pubstack
 
 import (
 	"fmt"
-	"github.com/prebid/prebid-server/analytics/pubstack/eventchannel"
+	"github.com/aclrys/prebid-server/analytics/pubstack/eventchannel"
 	"net/http"
 	"net/url"
 	"os"
@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/prebid/prebid-server/analytics/pubstack/helpers"
+	"github.com/aclrys/prebid-server/analytics/pubstack/helpers"
 
-	"github.com/prebid/prebid-server/analytics"
+	"github.com/aclrys/prebid-server/analytics"
 )
 
 type Configuration struct {

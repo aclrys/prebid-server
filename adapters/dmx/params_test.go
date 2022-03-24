@@ -2,7 +2,7 @@ package dmx
 
 import (
 	"encoding/json"
-	"github.com/prebid/prebid-server/openrtb_ext"
+	"github.com/aclrys/prebid-server/openrtb_ext"
 	"testing"
 )
 

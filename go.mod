@@ -1,4 +1,4 @@
-module github.com/prebid/prebid-server
+module github.com/aclrys/prebid-server
 
 go 1.16
 
@@ -16,7 +16,7 @@ require (
 	github.com/lib/pq v1.10.4
 	github.com/mitchellh/copystructure v1.2.0
 	github.com/mxmCherry/openrtb/v15 v15.0.1
-	github.com/prebid/go-gdpr v1.11.0
+	github.com/aclrys/go-gdpr v1.11.0
 	github.com/prometheus/client_golang v1.12.1
 	github.com/prometheus/client_model v0.2.0
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475

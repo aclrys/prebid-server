@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/prebid/go-gdpr/consentconstants"
-	"github.com/prebid/prebid-server/config"
+	"github.com/aclrys/go-gdpr/consentconstants"
+	"github.com/aclrys/prebid-server/config"
 )
 
 func TestFetcherDynamicLoadListExists(t *testing.T) {

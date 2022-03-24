@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/mxmCherry/openrtb/v15/openrtb2"
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/errortypes"
-	"github.com/prebid/prebid-server/openrtb_ext"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/errortypes"
+	"github.com/aclrys/prebid-server/openrtb_ext"
 )
 
 // InfoAwareBidder wraps a Bidder to ensure all requests abide by the capabilities and

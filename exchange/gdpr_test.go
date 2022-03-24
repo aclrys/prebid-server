@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/mxmCherry/openrtb/v15/openrtb2"
-	"github.com/prebid/prebid-server/gdpr"
+	"github.com/aclrys/prebid-server/gdpr"
 	"github.com/stretchr/testify/assert"
 )
 

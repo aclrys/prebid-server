@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/mxmCherry/openrtb/v15/openrtb2"
-	"github.com/prebid/prebid-server/gdpr"
+	"github.com/aclrys/prebid-server/gdpr"
 )
 
 // ExtractGDPR will pull the gdpr flag from an openrtb request

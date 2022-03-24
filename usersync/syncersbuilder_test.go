@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/privacy"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/privacy"
 	"github.com/stretchr/testify/assert"
 )
 

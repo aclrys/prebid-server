@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/prebid/prebid-server/util/iputil"
+	"github.com/aclrys/prebid-server/util/iputil"
 	"github.com/stretchr/testify/assert"
 )
 

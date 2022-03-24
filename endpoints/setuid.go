@@ -10,12 +10,12 @@ import (
 	"time"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/prebid/prebid-server/analytics"
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/gdpr"
-	"github.com/prebid/prebid-server/metrics"
-	"github.com/prebid/prebid-server/usersync"
-	"github.com/prebid/prebid-server/util/httputil"
+	"github.com/aclrys/prebid-server/analytics"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/gdpr"
+	"github.com/aclrys/prebid-server/metrics"
+	"github.com/aclrys/prebid-server/usersync"
+	"github.com/aclrys/prebid-server/util/httputil"
 )
 
 const (

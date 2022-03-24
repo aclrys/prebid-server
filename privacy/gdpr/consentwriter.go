@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/mxmCherry/openrtb/v15/openrtb2"
-	"github.com/prebid/prebid-server/openrtb_ext"
+	"github.com/aclrys/prebid-server/openrtb_ext"
 )
 
 // ConsentWriter implements the PolicyWriter interface for GDPR TCF.

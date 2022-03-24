@@ -7,11 +7,11 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/currency"
-	"github.com/prebid/prebid-server/router"
-	"github.com/prebid/prebid-server/server"
-	"github.com/prebid/prebid-server/util/task"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/currency"
+	"github.com/aclrys/prebid-server/router"
+	"github.com/aclrys/prebid-server/server"
+	"github.com/aclrys/prebid-server/util/task"
 
 	"github.com/golang/glog"
 	"github.com/spf13/viper"

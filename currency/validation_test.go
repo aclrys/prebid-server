@@ -3,8 +3,8 @@ package currency
 import (
 	"testing"
 
-	"github.com/prebid/prebid-server/errortypes"
-	"github.com/prebid/prebid-server/openrtb_ext"
+	"github.com/aclrys/prebid-server/errortypes"
+	"github.com/aclrys/prebid-server/openrtb_ext"
 	"github.com/stretchr/testify/assert"
 )
 

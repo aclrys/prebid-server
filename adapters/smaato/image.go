@@ -3,7 +3,7 @@ package smaato
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/prebid/prebid-server/errortypes"
+	"github.com/aclrys/prebid-server/errortypes"
 	"net/url"
 	"strings"
 )

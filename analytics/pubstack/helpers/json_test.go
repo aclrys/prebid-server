@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/mxmCherry/openrtb/v15/openrtb2"
-	"github.com/prebid/prebid-server/analytics"
+	"github.com/aclrys/prebid-server/analytics"
 )
 
 func TestJsonifyAuctionObject(t *testing.T) {

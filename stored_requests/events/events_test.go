@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/prebid/prebid-server/stored_requests"
-	"github.com/prebid/prebid-server/stored_requests/caches/memory"
+	"github.com/aclrys/prebid-server/stored_requests"
+	"github.com/aclrys/prebid-server/stored_requests/caches/memory"
 )
 
 func TestListen(t *testing.T) {

@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/stored_requests"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/stored_requests"
 	"github.com/stretchr/testify/assert"
 )
 

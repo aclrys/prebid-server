@@ -5,7 +5,7 @@ import (
 
 	"github.com/mxmCherry/openrtb/v15/openrtb2"
 
-	"github.com/prebid/prebid-server/openrtb_ext"
+	"github.com/aclrys/prebid-server/openrtb_ext"
 )
 
 const xPrebidHeaderVersionPrefix = "pbs-go"

@@ -7,19 +7,19 @@ import (
 	"math/rand"
 
 	"github.com/mxmCherry/openrtb/v15/openrtb2"
-	"github.com/prebid/go-gdpr/vendorconsent"
+	"github.com/aclrys/go-gdpr/vendorconsent"
 
 	"github.com/buger/jsonparser"
-	"github.com/prebid/prebid-server/adapters"
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/firstpartydata"
-	"github.com/prebid/prebid-server/gdpr"
-	"github.com/prebid/prebid-server/metrics"
-	"github.com/prebid/prebid-server/openrtb_ext"
-	"github.com/prebid/prebid-server/privacy"
-	"github.com/prebid/prebid-server/privacy/ccpa"
-	"github.com/prebid/prebid-server/privacy/lmt"
-	"github.com/prebid/prebid-server/schain"
+	"github.com/aclrys/prebid-server/adapters"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/firstpartydata"
+	"github.com/aclrys/prebid-server/gdpr"
+	"github.com/aclrys/prebid-server/metrics"
+	"github.com/aclrys/prebid-server/openrtb_ext"
+	"github.com/aclrys/prebid-server/privacy"
+	"github.com/aclrys/prebid-server/privacy/ccpa"
+	"github.com/aclrys/prebid-server/privacy/lmt"
+	"github.com/aclrys/prebid-server/schain"
 )
 
 var integrationTypeMap = map[metrics.RequestType]config.IntegrationType{

@@ -12,15 +12,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/metrics"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/metrics"
 
 	"github.com/buger/jsonparser"
 	"github.com/golang/glog"
 	"golang.org/x/net/context/ctxhttp"
 )
 
-// Client stores values in Prebid Cache. For more info, see https://github.com/prebid/prebid-cache
+// Client stores values in Prebid Cache. For more info, see https://github.com/aclrys/prebid-cache
 type Client interface {
 	// PutJson stores JSON values for the given openrtb2.Bids in the cache. Null values will be
 	//

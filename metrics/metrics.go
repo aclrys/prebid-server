@@ -3,7 +3,7 @@ package metrics
 import (
 	"time"
 
-	"github.com/prebid/prebid-server/openrtb_ext"
+	"github.com/aclrys/prebid-server/openrtb_ext"
 )
 
 // Labels defines the labels that can be attached to the metrics.

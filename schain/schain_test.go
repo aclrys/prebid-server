@@ -3,7 +3,7 @@ package schain
 import (
 	"testing"
 
-	"github.com/prebid/prebid-server/openrtb_ext"
+	"github.com/aclrys/prebid-server/openrtb_ext"
 	"github.com/stretchr/testify/assert"
 )
 

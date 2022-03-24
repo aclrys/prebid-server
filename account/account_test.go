@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/errortypes"
-	"github.com/prebid/prebid-server/metrics"
-	"github.com/prebid/prebid-server/stored_requests"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/errortypes"
+	"github.com/aclrys/prebid-server/metrics"
+	"github.com/aclrys/prebid-server/stored_requests"
 	"github.com/stretchr/testify/assert"
 )
 

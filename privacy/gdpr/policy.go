@@ -1,7 +1,7 @@
 package gdpr
 
 import (
-	"github.com/prebid/go-gdpr/vendorconsent"
+	"github.com/aclrys/go-gdpr/vendorconsent"
 )
 
 // Policy represents the GDPR regulation for an OpenRTB bid request.

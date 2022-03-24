@@ -4,10 +4,10 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/prebid/go-gdpr/consentconstants"
-	"github.com/prebid/go-gdpr/vendorlist"
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/openrtb_ext"
+	"github.com/aclrys/go-gdpr/consentconstants"
+	"github.com/aclrys/go-gdpr/vendorlist"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/openrtb_ext"
 )
 
 type Permissions interface {

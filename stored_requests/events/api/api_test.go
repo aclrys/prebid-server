@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/prebid/prebid-server/stored_requests"
-	"github.com/prebid/prebid-server/stored_requests/caches/memory"
-	"github.com/prebid/prebid-server/stored_requests/events"
+	"github.com/aclrys/prebid-server/stored_requests"
+	"github.com/aclrys/prebid-server/stored_requests/caches/memory"
+	"github.com/aclrys/prebid-server/stored_requests/events"
 )
 
 func TestGoodRequests(t *testing.T) {

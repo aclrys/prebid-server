@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/mxmCherry/openrtb/v15/openrtb2"
-	"github.com/prebid/prebid-server/adapters"
-	"github.com/prebid/prebid-server/currency"
-	"github.com/prebid/prebid-server/openrtb_ext"
+	"github.com/aclrys/prebid-server/adapters"
+	"github.com/aclrys/prebid-server/currency"
+	"github.com/aclrys/prebid-server/openrtb_ext"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prebid/prebid-server/adapters"
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/currency"
-	"github.com/prebid/prebid-server/gdpr"
-	metricsConfig "github.com/prebid/prebid-server/metrics/config"
-	"github.com/prebid/prebid-server/openrtb_ext"
+	"github.com/aclrys/prebid-server/adapters"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/currency"
+	"github.com/aclrys/prebid-server/gdpr"
+	metricsConfig "github.com/aclrys/prebid-server/metrics/config"
+	"github.com/aclrys/prebid-server/openrtb_ext"
 
 	"github.com/mxmCherry/openrtb/v15/openrtb2"
 	"github.com/stretchr/testify/assert"

@@ -11,15 +11,15 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/julienschmidt/httprouter"
-	"github.com/prebid/prebid-server/analytics"
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/gdpr"
-	"github.com/prebid/prebid-server/metrics"
-	"github.com/prebid/prebid-server/openrtb_ext"
-	"github.com/prebid/prebid-server/privacy"
-	"github.com/prebid/prebid-server/privacy/ccpa"
-	gdprPrivacy "github.com/prebid/prebid-server/privacy/gdpr"
-	"github.com/prebid/prebid-server/usersync"
+	"github.com/aclrys/prebid-server/analytics"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/gdpr"
+	"github.com/aclrys/prebid-server/metrics"
+	"github.com/aclrys/prebid-server/openrtb_ext"
+	"github.com/aclrys/prebid-server/privacy"
+	"github.com/aclrys/prebid-server/privacy/ccpa"
+	gdprPrivacy "github.com/aclrys/prebid-server/privacy/gdpr"
+	"github.com/aclrys/prebid-server/usersync"
 )
 
 var (

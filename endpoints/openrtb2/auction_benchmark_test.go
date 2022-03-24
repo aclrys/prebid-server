@@ -7,15 +7,15 @@ import (
 	"testing"
 	"time"
 
-	analyticsConf "github.com/prebid/prebid-server/analytics/config"
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/currency"
-	"github.com/prebid/prebid-server/exchange"
-	"github.com/prebid/prebid-server/gdpr"
-	metricsConfig "github.com/prebid/prebid-server/metrics/config"
-	"github.com/prebid/prebid-server/openrtb_ext"
-	"github.com/prebid/prebid-server/stored_requests/backends/empty_fetcher"
-	"github.com/prebid/prebid-server/usersync"
+	analyticsConf "github.com/aclrys/prebid-server/analytics/config"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/currency"
+	"github.com/aclrys/prebid-server/exchange"
+	"github.com/aclrys/prebid-server/gdpr"
+	metricsConfig "github.com/aclrys/prebid-server/metrics/config"
+	"github.com/aclrys/prebid-server/openrtb_ext"
+	"github.com/aclrys/prebid-server/stored_requests/backends/empty_fetcher"
+	"github.com/aclrys/prebid-server/usersync"
 )
 
 // benchmarkTestServer returns the header bidding test ad. This response was scraped from a real appnexus server response.

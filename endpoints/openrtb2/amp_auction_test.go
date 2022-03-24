@@ -13,13 +13,13 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 	"github.com/mxmCherry/openrtb/v15/openrtb2"
-	"github.com/prebid/prebid-server/analytics"
-	analyticsConf "github.com/prebid/prebid-server/analytics/config"
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/exchange"
-	metricsConfig "github.com/prebid/prebid-server/metrics/config"
-	"github.com/prebid/prebid-server/openrtb_ext"
-	"github.com/prebid/prebid-server/stored_requests/backends/empty_fetcher"
+	"github.com/aclrys/prebid-server/analytics"
+	analyticsConf "github.com/aclrys/prebid-server/analytics/config"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/exchange"
+	metricsConfig "github.com/aclrys/prebid-server/metrics/config"
+	"github.com/aclrys/prebid-server/openrtb_ext"
+	"github.com/aclrys/prebid-server/stored_requests/backends/empty_fetcher"
 
 	"github.com/stretchr/testify/assert"
 )

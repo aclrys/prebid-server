@@ -3,7 +3,7 @@ package schain
 import (
 	"fmt"
 
-	"github.com/prebid/prebid-server/openrtb_ext"
+	"github.com/aclrys/prebid-server/openrtb_ext"
 )
 
 // BidderToPrebidSChains organizes the ORTB 2.5 multiple root schain nodes into a map of schain nodes by bidder

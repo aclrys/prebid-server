@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prebid/prebid-server/privacy"
+	"github.com/aclrys/prebid-server/privacy"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

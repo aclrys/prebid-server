@@ -4,11 +4,11 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/macros"
-	"github.com/prebid/prebid-server/privacy"
-	"github.com/prebid/prebid-server/privacy/ccpa"
-	"github.com/prebid/prebid-server/privacy/gdpr"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/macros"
+	"github.com/aclrys/prebid-server/privacy"
+	"github.com/aclrys/prebid-server/privacy/ccpa"
+	"github.com/aclrys/prebid-server/privacy/gdpr"
 	"github.com/stretchr/testify/assert"
 )
 

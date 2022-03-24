@@ -5,14 +5,14 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/prebid/go-gdpr/api"
-	"github.com/prebid/go-gdpr/consentconstants"
-	tcf2ConsentConstants "github.com/prebid/go-gdpr/consentconstants/tcf2"
-	"github.com/prebid/go-gdpr/vendorconsent"
-	tcf2 "github.com/prebid/go-gdpr/vendorconsent/tcf2"
-	"github.com/prebid/go-gdpr/vendorlist"
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/openrtb_ext"
+	"github.com/aclrys/go-gdpr/api"
+	"github.com/aclrys/go-gdpr/consentconstants"
+	tcf2ConsentConstants "github.com/aclrys/go-gdpr/consentconstants/tcf2"
+	"github.com/aclrys/go-gdpr/vendorconsent"
+	tcf2 "github.com/aclrys/go-gdpr/vendorconsent/tcf2"
+	"github.com/aclrys/go-gdpr/vendorlist"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/openrtb_ext"
 )
 
 type permissionsImpl struct {

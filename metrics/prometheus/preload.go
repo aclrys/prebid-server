@@ -1,7 +1,7 @@
 package prometheusmetrics
 
 import (
-	"github.com/prebid/prebid-server/metrics"
+	"github.com/aclrys/prebid-server/metrics"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

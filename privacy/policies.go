@@ -1,9 +1,9 @@
 package privacy
 
 import (
-	"github.com/prebid/prebid-server/privacy/ccpa"
-	"github.com/prebid/prebid-server/privacy/gdpr"
-	"github.com/prebid/prebid-server/privacy/lmt"
+	"github.com/aclrys/prebid-server/privacy/ccpa"
+	"github.com/aclrys/prebid-server/privacy/gdpr"
+	"github.com/aclrys/prebid-server/privacy/lmt"
 )
 
 // Policies represents the privacy regulations for an OpenRTB bid request.

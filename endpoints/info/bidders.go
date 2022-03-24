@@ -8,7 +8,7 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/julienschmidt/httprouter"
-	"github.com/prebid/prebid-server/config"
+	"github.com/aclrys/prebid-server/config"
 )
 
 var invalidEnabledOnly = []byte(`Invalid value for 'enabledonly' query param, must be of boolean type`)

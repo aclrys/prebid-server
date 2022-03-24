@@ -6,12 +6,12 @@ import (
 	"testing"
 
 	"github.com/mxmCherry/openrtb/v15/openrtb2"
-	"github.com/prebid/prebid-server/adapters"
-	"github.com/prebid/prebid-server/adapters/appnexus"
-	"github.com/prebid/prebid-server/adapters/rubicon"
-	"github.com/prebid/prebid-server/config"
-	metrics "github.com/prebid/prebid-server/metrics/config"
-	"github.com/prebid/prebid-server/openrtb_ext"
+	"github.com/aclrys/prebid-server/adapters"
+	"github.com/aclrys/prebid-server/adapters/appnexus"
+	"github.com/aclrys/prebid-server/adapters/rubicon"
+	"github.com/aclrys/prebid-server/config"
+	metrics "github.com/aclrys/prebid-server/metrics/config"
+	"github.com/aclrys/prebid-server/openrtb_ext"
 	"github.com/stretchr/testify/assert"
 )
 

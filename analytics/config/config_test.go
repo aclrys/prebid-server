@@ -8,8 +8,8 @@ import (
 	"github.com/mxmCherry/openrtb/v15/openrtb2"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/prebid/prebid-server/analytics"
-	"github.com/prebid/prebid-server/config"
+	"github.com/aclrys/prebid-server/analytics"
+	"github.com/aclrys/prebid-server/config"
 )
 
 const TEST_DIR string = "testFiles"

@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prebid/prebid-server/util/task"
+	"github.com/aclrys/prebid-server/util/task"
 	"github.com/stretchr/testify/assert"
 )
 

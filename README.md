@@ -1,5 +1,5 @@
-[![Build](https://img.shields.io/github/workflow/status/prebid/prebid-server/Validate/master?style=flat-square)](https://github.com/prebid/prebid-server/actions/workflows/validate.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/prebid/prebid-server?style=flat-square)](https://goreportcard.com/report/github.com/prebid/prebid-server)
+[![Build](https://img.shields.io/github/workflow/status/prebid/prebid-server/Validate/master?style=flat-square)](https://github.com/aclrys/prebid-server/actions/workflows/validate.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/aclrys/prebid-server?style=flat-square)](https://goreportcard.com/report/github.com/aclrys/prebid-server)
 ![Go Version](https://img.shields.io/github/go-mod/go-version/prebid/prebid-server?style=flat-square)
 
 # Prebid Server
@@ -30,8 +30,8 @@ Download and prepare Prebid Server:
 
 ```bash
 cd YOUR_DIRECTORY
-git clone https://github.com/prebid/prebid-server src/github.com/prebid/prebid-server
-cd src/github.com/prebid/prebid-server
+git clone https://github.com/aclrys/prebid-server src/github.com/aclrys/prebid-server
+cd src/github.com/aclrys/prebid-server
 ```
 
 Run the automated tests:
@@ -60,9 +60,9 @@ of exported types.
 
 Want to [add an adapter](https://docs.prebid.org/prebid-server/developers/add-new-bidder-go.html)? Found a bug? Great!
 
-Report bugs, request features, and suggest improvements [on Github](https://github.com/prebid/prebid-server/issues).
+Report bugs, request features, and suggest improvements [on Github](https://github.com/aclrys/prebid-server/issues).
 
-Or better yet, [open a pull request](https://github.com/prebid/prebid-server/compare) with the changes you'd like to see.
+Or better yet, [open a pull request](https://github.com/aclrys/prebid-server/compare) with the changes you'd like to see.
 
 ## IDE Recommendations
 

@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v3"
 
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/openrtb_ext"
-	"github.com/prebid/prebid-server/usersync"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/openrtb_ext"
+	"github.com/aclrys/prebid-server/usersync"
 )
 
 const bidderInfoRelativePath = "../static/bidder-info"

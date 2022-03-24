@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prebid/prebid-server/config"
-	"github.com/prebid/prebid-server/metrics"
-	"github.com/prebid/prebid-server/stored_requests/events"
+	"github.com/aclrys/prebid-server/config"
+	"github.com/aclrys/prebid-server/metrics"
+	"github.com/aclrys/prebid-server/stored_requests/events"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
