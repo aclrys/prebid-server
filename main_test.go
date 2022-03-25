@@ -3,6 +3,7 @@ package main
 import (
 	"os"
 	"testing"
+	"fmt"
 
 	"github.com/aclrys/prebid-server/config"
 	"github.com/stretchr/testify/assert"
@@ -14,6 +15,7 @@ func compareStrings(t *testing.T, message string, expect string, actual string) 
 	if expect != actual {
 		t.Errorf(message, expect, actual)
 	}
+	fmt.Printf("afdf")
 }
 
 // forceEnv sets an environment variable to a certain value, and return a deferable function to reset it to the original value.
